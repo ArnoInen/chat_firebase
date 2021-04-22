@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+
+		<!-- Pretty on mobile -->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		  
+		<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+		<script defer src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+		
+		<!-- Add Firebase products that you want to use -->
+		<script defer src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+		<script defer src="js/init-firebase.js"></script>
+		
+		<!-- My Own Script -->
+		<script defer src="js/chat.js"></script>
+
+	</head>
+	
+	<body>
+		<header>
+		</header>
+		<main>
+			<div id="object"></div>
+			<div id="chatwindow">
+			</div>
+			<div id="messagewindow">
+				<input type="text" id="chatinput">
+				<button onclick="sendMessage()">SEND</button>
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>	
