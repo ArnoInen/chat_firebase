@@ -10,4 +10,5 @@ First you have to
 6. Copy the key and project-id
 7. Past the key and project-id in the init-firebase.js javascript
 
-From the little form it sends a message to the realtime database 
+From the little form it sends a message to the realtime database. Then, when you do, it immediatly sends back what is stored in the database.
+If you host it on your own website (be careful with security) everyone can see the messages. 
